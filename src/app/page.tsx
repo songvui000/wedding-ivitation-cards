@@ -9,7 +9,7 @@ import flower1 from '@/../public/images/flower1.svg'
 import footer from '@/../public/images/footer.svg'
 import ImportantPeople from '@/components/wedding/ImportantPeople'
 import EventParties from '@/components/wedding/EventParties'
-import { weddingInformation } from './utils/information'
+import { weddingInformation } from '../utils/information'
 export default function Home() {
   return (
     <>
@@ -22,8 +22,7 @@ export default function Home() {
       </div>
       <div className="parallax">
         <p id="typed" udesly-typewriter="Fino ad arrivare al giornodel nostro “Sì”" className="citazione">
-          Towards the <strong className="gold">perfect</strong>
-          day
+          Towards the <strong className="gold">perfect</strong> day
         </p>
       </div>
       <div className="fixed-text">

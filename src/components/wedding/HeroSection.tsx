@@ -6,7 +6,7 @@ import mobileBackground from '@/../public/images/mobile-background.png'
 import mobileForeground from '@/../public/images/mobile-foreground.svg'
 import tabletBackground from '@/../public/images/tablet-background.png'
 import tabletforeground from '@/../public/images/tablet-foreground.svg'
-import { brideInformation, groomInformation } from '@/app/utils/information'
+import { brideInformation, groomInformation } from '@/utils/information'
 
 const CharOverflow = ({ name }: { name: string }) => {
   return name.split('').map((char, index) => (

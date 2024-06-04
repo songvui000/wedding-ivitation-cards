@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import fbIcon from '@/../public/images/fb-icon.svg'
-import { brideInformation, groomInformation } from '@/app/utils/information'
+import { brideInformation, groomInformation } from '@/utils/information'
 
 type CardProps = {
   name?: string

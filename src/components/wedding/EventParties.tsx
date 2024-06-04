@@ -2,6 +2,10 @@ import rightLeaf from '@/../public/images/right-leaf.svg'
 import Image from 'next/image'
 export default function EventParties() {
   const title = 'Event&Parties'
+  const wedding = 'Wedding'
+  const mainCerinomy = 'Tân hôn'
+  const weddingParty = 'Báo hỷ'
+
   return (
     <div data-w-id="5dfa0102-0389-3bf6-bfa2-d41a5c61cc59">
       <div id="When-and-where" className="event-parties-section wf-section">
@@ -36,41 +40,16 @@ export default function EventParties() {
             <div id="w-node-_9744d322-e678-20b2-f573-144ce9b019de-13589a9f" className="container-card">
               <div data-w-id="9744d322-e678-20b2-f573-144ce9b019df" className="card-important-people first hide-cursor">
                 <div className="text-wrapper hide">
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b019e2" className="text-span-2 black">
-                      W
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b019e5" className="text-span-2 black">
-                      e
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b019e8" className="text-span-2 black">
-                      l
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b019eb" className="text-span-2 black">
-                      c
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b019ee" className="text-span-2 black">
-                      o
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b019f1" className="text-span-2 black">
-                      m
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b019f4" className="text-span-2 black">
-                      e
-                    </div>
-                  </div>
+                  {wedding.split('').map((letter, index) => {
+                    const classNames = letter === ' ' ? 'mx-2' : ''
+                    return (
+                      <div key={index} className={`overflow ${classNames}`}>
+                        <div data-w-id="9744d322-e678-20b2-f573-144ce9b019e2" className="text-span-2 black">
+                          {letter}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
                 <div data-w-id="9744d322-e678-20b2-f573-144ce9b019f6" className="ellipse" />
               </div>
@@ -102,41 +81,16 @@ export default function EventParties() {
                   </p>
                 </div>
                 <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a09" className="text-wrapper second">
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a0b" className="text-span-2 white">
-                      W
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a0e" className="text-span-2 white">
-                      e
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a11" className="text-span-2 white">
-                      l
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a14" className="text-span-2 white">
-                      c
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a17" className="text-span-2 white">
-                      o
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a1a" className="text-span-2 white">
-                      m
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a1d" className="text-span-2 white">
-                      e
-                    </div>
-                  </div>
+                  {wedding.split('').map((letter, index) => {
+                    const classNames = letter === ' ' ? 'mx-2' : ''
+                    return (
+                      <div key={index} className={`overflow ${classNames}`}>
+                        <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a0b" className="text-span-2 white">
+                          {letter}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
                 <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a1f" className="close-wrap hide-cursor">
                   <img
@@ -151,66 +105,16 @@ export default function EventParties() {
             <div id="w-node-_9744d322-e678-20b2-f573-144ce9b01a21-13589a9f" className="container-card _2">
               <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a22" className="card-important-people first hide-cursor">
                 <div className="text-wrapper hide">
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a25" className="text-span-2 black-second">
-                      M
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a28" className="text-span-2 black-second">
-                      a
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a2b" className="text-span-2 black-second">
-                      i
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a2e" className="text-span-2 black-second">
-                      n
-                    </div>
-                  </div>
-                  <div className="overflow margin">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a31" className="text-span-2 black-second">
-                      C
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a34" className="text-span-2 black-second">
-                      e
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a37" className="text-span-2 black-second">
-                      r
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a3a" className="text-span-2 black-second">
-                      i
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a3d" className="text-span-2 black-second">
-                      m
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a40" className="text-span-2 black-second">
-                      o
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a43" className="text-span-2 black-second">
-                      n
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a46" className="text-span-2 black-second">
-                      y
-                    </div>
-                  </div>
+                  {mainCerinomy.split('').map((letter, index) => {
+                    const classNames = letter === ' ' ? 'mx-2' : ''
+                    return (
+                      <div key={index} className={`overflow ${classNames}`}>
+                        <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a25" className="text-span-2 black">
+                          {letter}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
                 <div className="ellipse container-paragraph-story-line-2" />
               </div>
@@ -243,66 +147,16 @@ export default function EventParties() {
                   </p>
                 </div>
                 <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a5b" className="text-wrapper second _2">
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a5d" className="text-span-2 white-second">
-                      M
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a60" className="text-span-2 white-second">
-                      a
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a63" className="text-span-2 white-second">
-                      i
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a66" className="text-span-2 white-second">
-                      n
-                    </div>
-                  </div>
-                  <div className="overflow margin">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a69" className="text-span-2 white-second">
-                      C
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a6c" className="text-span-2 white-second">
-                      e
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a6f" className="text-span-2 white-second">
-                      r
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a72" className="text-span-2 white-second">
-                      i
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a75" className="text-span-2 white-second">
-                      m
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a78" className="text-span-2 white-second">
-                      o
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a7b" className="text-span-2 white-second">
-                      n
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a7e" className="text-span-2 white-second">
-                      y
-                    </div>
-                  </div>
+                  {mainCerinomy.split('').map((letter, index) => {
+                    const classNames = letter === ' ' ? 'mx-2' : ''
+                    return (
+                      <div key={index} className={`overflow ${classNames}`}>
+                        <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a5d" className="text-span-2 white-second">
+                          {letter}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
                 <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a80" className="close-wrap hide-cursor">
                   <img
@@ -317,66 +171,16 @@ export default function EventParties() {
             <div id="w-node-_9744d322-e678-20b2-f573-144ce9b01a82-13589a9f" className="container-card">
               <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a83" className="card-important-people first hide-cursor">
                 <div className="text-wrapper hide">
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a86" className="text-span-2 black-third">
-                      W
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a89" className="text-span-2 black-third">
-                      e
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a8c" className="text-span-2 black-third">
-                      d
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a8f" className="text-span-2 black-third">
-                      d
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a92" className="text-span-2 black-third">
-                      i
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a95" className="text-span-2 black-third">
-                      n
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a98" className="text-span-2 black-third">
-                      g
-                    </div>
-                  </div>
-                  <div className="overflow margin">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a9b" className="text-span-2 black-third">
-                      P
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a9e" className="text-span-2 black-third">
-                      a
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01aa1" className="text-span-2 black-third">
-                      r
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01aa4" className="text-span-2 black-third">
-                      t
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01aa7" className="text-span-2 black-third">
-                      y
-                    </div>
-                  </div>
+                  {weddingParty.split('').map((letter, index) => {
+                    const classNames = letter === ' ' ? 'mx-2' : ''
+                    return (
+                      <div key={index} className={`overflow ${classNames}`}>
+                        <div data-w-id="9744d322-e678-20b2-f573-144ce9b01a86" className="text-span-2 black-third">
+                          {letter}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
                 <div className="ellipse _3" />
               </div>
@@ -406,66 +210,16 @@ export default function EventParties() {
                   </p>
                 </div>
                 <div data-w-id="9744d322-e678-20b2-f573-144ce9b01abc" className="text-wrapper second">
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01abe" className="text-span-2 white-third">
-                      W
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01ac1" className="text-span-2 white-third">
-                      e
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01ac4" className="text-span-2 white-third">
-                      d
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01ac7" className="text-span-2 white-third">
-                      d
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01aca" className="text-span-2 white-third">
-                      i
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01acd" className="text-span-2 white-third">
-                      n
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01ad0" className="text-span-2 white-third">
-                      g
-                    </div>
-                  </div>
-                  <div className="overflow margin">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01ad3" className="text-span-2 white-third">
-                      P
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01ad6" className="text-span-2 white-third">
-                      a
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01ad9" className="text-span-2 white-third">
-                      r
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01adc" className="text-span-2 white-third">
-                      t
-                    </div>
-                  </div>
-                  <div className="overflow">
-                    <div data-w-id="9744d322-e678-20b2-f573-144ce9b01adf" className="text-span-2 white-third">
-                      y
-                    </div>
-                  </div>
+                  {weddingParty.split('').map((letter, index) => {
+                    const classNames = letter === ' ' ? 'mx-2' : ''
+                    return (
+                      <div key={index} className={`overflow ${classNames}`}>
+                        <div data-w-id="9744d322-e678-20b2-f573-144ce9b01abe" className="text-span-2 white-third">
+                          {letter}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
                 <div data-w-id="9744d322-e678-20b2-f573-144ce9b01ae1" className="close-wrap hide-cursor">
                   <img
@@ -597,19 +351,11 @@ export default function EventParties() {
           </div>
           <div className="containedr-link">
             <a
-              href="https://dona-ora.savethechildren.it/donazione-regolare?utm_source=google&utm_medium=cpc&utm_campaign=rf-rg-brand&causale=13200&gclid=CjwKCAjwov6hBhBsEiwAvrvN6OsedyhPLKivow6tQ6AfmJbxc12offIP9zC9l_6WeSk6Hy23NmN_WRoCLY4QAvD_BwE"
               data-w-id="3d65b90d-7cd7-4982-2356-ef65e38029af"
               style={{ opacity: 0 }}
               target="_blank"
               className="link-wrap w-inline-block"
-            >
-              <div className="link-line black" />
-              <h2 className="link-heading">
-                <span className="span-link">
-                  Charitable <strong className="bold-text-2">donation♡</strong>→
-                </span>
-              </h2>
-            </a>
+            ></a>
             <a
               href="#"
               data-w-id="3d65b90d-7cd7-4982-2356-ef65e38029b7"
