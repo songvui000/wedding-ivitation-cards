@@ -13,10 +13,7 @@ const CharOverflow = ({ name }: { name: string }) => {
     <div className="overflow" key={index}>
       <div
         style={{
-          WebkitTransform: 'translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
-          MozTransform: 'translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
-          msTransform: 'translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
-          transform: 'translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
+          transform: 'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
         }}
         className="main-heading h1 white"
       >
@@ -34,7 +31,14 @@ export default function HeroSection() {
           <div className="hero-text-container">
             <CharOverflow name={groomInformation.name} />
             <div className="overflow margin-horizontal">
-              <div className="main-heading h1 white _2">&amp;</div>
+              <div
+                className="main-heading h1 white _2"
+                style={{
+                  transform: 'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
+                }}
+              >
+                &amp;
+              </div>
             </div>
             <CharOverflow name={brideInformation.name} />
           </div>

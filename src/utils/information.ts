@@ -1,6 +1,7 @@
 export const groomInformation = {
   name: process.env.GROOM_NAME || '',
 }
+
 export const brideInformation = {
   name: process.env.BRIDE_NAME || '',
 }
