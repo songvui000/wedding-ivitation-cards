@@ -15,8 +15,8 @@ function Home() {
   return (
     <>
       <Wedding />
-      <Script src="webfont.js" type="text/javascript" strategy="afterInteractive" />
-      <Script src="jquery.js" type="text/javascript" strategy="afterInteractive" />
+      <Script src="webfont.js" type="text/javascript" />
+      <Script src="jquery.js" type="text/javascript" />
       <Script src="webflow.js" type="text/javascript" strategy="afterInteractive" />
     </>
   )
