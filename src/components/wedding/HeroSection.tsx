@@ -10,15 +10,8 @@ import { brideInformation, groomInformation } from '@/utils/information'
 
 const CharOverflow = ({ name }: { name: string }) => {
   return name.split('').map((char, index) => (
-    <div className="overflow" key={index}>
-      <div
-        style={{
-          transform: 'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
-        }}
-        className="main-heading h1 white"
-      >
-        {char}
-      </div>
+    <div className="overflow" key={`${char}-${index}`}>
+      <div className="main-heading h1 white animate__fadeIn opacity-0">{char}</div>
     </div>
   ))
 }
@@ -31,18 +24,11 @@ export default function HeroSection() {
           <div className="hero-text-container">
             <CharOverflow name={groomInformation.name} />
             <div className="overflow margin-horizontal">
-              <div
-                className="main-heading h1 white _2"
-                style={{
-                  transform: 'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
-                }}
-              >
-                &amp;
-              </div>
+              <div className="main-heading h1 white _2 animate__fadeIn opacity-0">&amp;</div>
             </div>
             <CharOverflow name={brideInformation.name} />
           </div>
-          <div data-w-id="b5893041-4e5e-252f-7e56-b88422206c7f" style={{ opacity: 0 }} className="wrap-text">
+          <div className="wrap-text">
             <div className="line" />
             <p id="typed" className="paragraph">
               Denver 31 Luglio 2023
@@ -57,22 +43,13 @@ export default function HeroSection() {
             alt=""
             className="hero-image absolute tiixi"
           />
-          <Image
-            src={background}
-            loading="lazy"
-            style={{ opacity: 0 }}
-            data-w-id="2c30044d-9347-5a85-a9c0-8ed0980919d1"
-            sizes="100vw"
-            alt=""
-            className="hero-image absolute big"
-          />
+          <Image src={background} loading="lazy" sizes="100vw" alt="" className="hero-image absolute big" />
           <Image
             src={foreground}
             loading="lazy"
-            style={{ opacity: 0 }}
             data-w-id="1ed43409-6dcb-74d8-fa73-8ac576272d1c"
             alt=""
-            className="hero-image absolute big"
+            className="hero-image absolute big animate__opacity opacity-0"
           />
         </div>
       </div>
@@ -81,7 +58,7 @@ export default function HeroSection() {
           <div className="hero-text-container">
             <CharOverflow name={groomInformation.name} />
             <div className="overflow margin-horizontal">
-              <div className="main-heading h1 white _2">&amp;</div>
+              <div className="main-heading h1 white _2 animate__fadeIn opacity-0">&amp;</div>
             </div>
             <CharOverflow name={brideInformation.name} />
           </div>
@@ -109,7 +86,7 @@ export default function HeroSection() {
           <div className="hero-text-container">
             <CharOverflow name={groomInformation.name} />
             <div className="overflow margin-horizontal">
-              <div className="main-heading h1 white _2">&amp;</div>
+              <div className="main-heading h1 white _2 animate__fadeIn opacity-0">&amp;</div>
             </div>
             <CharOverflow name={brideInformation.name} />
           </div>

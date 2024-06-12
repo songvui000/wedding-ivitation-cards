@@ -78,14 +78,14 @@ export default function Wedding() {
             </div>
           </div>
         </nav>
-        <div data-w-id="180b769e-7e84-945a-65f1-598a5aacd2df" style={{ height: '0%' }} className="line-menu" />
+        <div className="line-menu animate__height h-0" />
       </div>
       <div data-w-id="b1c10a02-630d-05d8-e8ca-829ce299ade2">
         <div className="text-block-2">RSVP</div>
         <div data-w-id="20cdd7c9-b4ec-2177-ed9b-cf3ba4e7ab09" style={{ height: '0%' }} className="line-rsvp" />
       </div>
       <div className="navbar _3">
-        <div data-w-id="4142447c-9c42-7bd2-7edb-c8b6ae7e3dfa" style={{ width: '0%' }} className="line-top" />
+        <div className="line-top animate__width w-0" />
       </div>
       <div style={{ display: 'none', width: '0%' }} className="rspv">
         <div style={{ opacity: 0 }} className="column">
