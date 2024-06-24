@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import fbIcon from '@/../public/images/fb-icon.svg'
 import { brideInformation, groomInformation } from '@/utils/information'
 import { BRIDE, GROOM, Role } from '@/constants'
 
@@ -27,20 +26,11 @@ const Card: React.FC<CardProps> = ({ name, description, type }) => {
         Nam semper augue sit amet facilisis dignissim. Ut eget consectetur felis. Sed sollicitudin dolor a feugiat
         luctus.
       </p>
-      <div className="w-layout-grid social-grid">
-        <a
-          id="w-node-_08913e58-92e3-8376-5a3a-e16c10832005-10831ff4"
-          href="#"
-          className="social-link hide-cursor w-inline-block"
-        >
-          <Image src={fbIcon} loading="lazy" alt="" className="main-image" />
-        </a>
-      </div>
     </div>
   )
 }
 export default function Information() {
-  const text = 'Thông tin cô dâu và chú rể'
+  const text = 'Cô dâu và chú rể'
   return (
     <div style={{ backgroundColor: 'rgb(251,243,240)' }} className="page-wrapper overflow-hidden">
       <div className="section padding-vertical padding-xxlarge wf-section">

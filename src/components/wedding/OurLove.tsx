@@ -3,6 +3,10 @@ import dot1 from '@/../public/images/dot1.svg'
 import dot2 from '@/../public/images/dot2.svg'
 import dot3 from '@/../public/images/dot3.svg'
 import bg1 from '@/../public/images/bg1.svg'
+import image from '@/../public/images/20230311174642_IMG_0840.jpg'
+import image2 from '@/../public/images/IMG_1502.jpg'
+import image3 from '@/../public/images/IMG_4433.jpg'
+import image4 from '@/../public/images/IMG_7883.jpg'
 export default function OurLove() {
   const text = 'Our Loveline'
   return (
@@ -47,11 +51,10 @@ export default function OurLove() {
               }}
               className="story-image"
             >
-              <img
-                src="https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300746bb99288d34d41e48_60dc28011f3a80051b49e488_ourstory1-(2).jpg"
+              <Image
+                src={image}
                 loading="lazy"
                 sizes="(max-width: 991px) 100vw, (max-width: 1439px) 26vw, 23vw"
-                srcSet="https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300746bb99288d34d41e48_60dc28011f3a80051b49e488_ourstory1-(2)-p-500.jpg 500w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300746bb99288d34d41e48_60dc28011f3a80051b49e488_ourstory1-(2)-p-800.jpg 800w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300746bb99288d34d41e48_60dc28011f3a80051b49e488_ourstory1-(2).jpg 1000w"
                 alt=""
                 className="image-timeline loveline"
               />
@@ -67,12 +70,7 @@ export default function OurLove() {
               }}
               className="story-image-2"
             >
-              <img
-                src="https://assets.website-files.com/642d591ca8b0b718dc589a9b/643007452a3df9d2e9da2a20_60dc280d54163b5bd561bc63_ourstory2.jpg"
-                loading="lazy"
-                alt=""
-                className="image-loveline-second"
-              />
+              <Image src={image2} loading="lazy" alt="" className="image-loveline-second" />
             </div>
             <div className="bg first">
               <Image src={dot1} loading="lazy" alt="" className="image-6 _2" />
@@ -112,11 +110,10 @@ export default function OurLove() {
           <div data-w-id="fd6a5e69-250e-4dd4-1d33-87841d1a04f8" className="module-image">
             <div className="story-image bottom" />
             <div className="story-image-2 bottom">
-              <img
-                src="https://assets.website-files.com/642d591ca8b0b718dc589a9b/642fe369f56ab3bb898c9417_60dc274f4f985717b2b23dee_ourstory3.jpg"
+              <Image
+                src={image4}
                 loading="lazy"
                 sizes="(max-width: 991px) 100vw, 30vw"
-                srcSet="https://assets.website-files.com/642d591ca8b0b718dc589a9b/642fe369f56ab3bb898c9417_60dc274f4f985717b2b23dee_ourstory3-p-500.jpg 500w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/642fe369f56ab3bb898c9417_60dc274f4f985717b2b23dee_ourstory3-p-800.jpg 800w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/642fe369f56ab3bb898c9417_60dc274f4f985717b2b23dee_ourstory3.jpg 1000w"
                 alt=""
                 className="image-loveline-second"
               />
@@ -167,11 +164,10 @@ export default function OurLove() {
           </div>
           <div data-w-id="fd6a5e69-250e-4dd4-1d33-87841d1a0510" className="module-image">
             <div className="story-image _2">
-              <img
-                src="https://assets.website-files.com/642d591ca8b0b718dc589a9b/642fe35cd2f4a4bba08b8b9b_60dc2824fe688e7e9af7e8d8_ourstory4.jpg"
+              <Image
+                src={image3}
                 loading="lazy"
                 sizes="(max-width: 991px) 100vw, 27vw"
-                srcSet="https://assets.website-files.com/642d591ca8b0b718dc589a9b/642fe35cd2f4a4bba08b8b9b_60dc2824fe688e7e9af7e8d8_ourstory4-p-500.jpg 500w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/642fe35cd2f4a4bba08b8b9b_60dc2824fe688e7e9af7e8d8_ourstory4-p-800.jpg 800w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/642fe35cd2f4a4bba08b8b9b_60dc2824fe688e7e9af7e8d8_ourstory4.jpg 1000w"
                 alt=""
                 className="image-loveline-second"
               />

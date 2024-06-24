@@ -1,3 +1,10 @@
+import Image from 'next/image'
+
+import image from '@/../public/images/IMG_3465.jpg'
+import image2 from '@/../public/images/20230507184426_IMG_1667.jpg'
+import image3 from '@/../public/images/IMG_7710.jpg'
+import image4 from '@/../public/images/IMG_7658.jpg'
+
 export default function SpecialMoment() {
   return (
     <div className="special-memories wf-section">
@@ -80,33 +87,25 @@ export default function SpecialMoment() {
           style={{ opacity: 0 }}
           className="wrap-image-memories-copy"
         >
-          <img
-            src="https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b9549007754d2_matheus-ferrero-0xCMoic4II8-unsplash-(1).jpg"
-            loading="lazy"
-            alt=""
-            className="memories-image absolute-1"
-          />
-          <img
-            src="https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b955cda7754c8_ourstory1%20(1).jpg"
+          <Image src={image} loading="lazy" alt="" className="memories-image absolute-1" />
+          <Image
+            src={image2}
             loading="lazy"
             sizes="(max-width: 991px) 100vw, 27vw"
-            srcSet="https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b955cda7754c8_ourstory1%2520(1)-p-500.jpeg 500w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b955cda7754c8_ourstory1%2520(1)-p-800.jpeg 800w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b955cda7754c8_ourstory1%2520(1)-p-1080.jpeg 1080w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b955cda7754c8_ourstory1%20(1).jpg 1125w"
             alt=""
             className="memories-image absolute-2"
           />
-          <img
-            src="https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b9571487754bf_stijn-te-strake-m45uW4f9YQg-unsplash.jpg"
+          <Image
+            src={image3}
             loading="lazy"
             sizes="(max-width: 991px) 100vw, 25vw"
-            srcSet="https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b9571487754bf_stijn-te-strake-m45uW4f9YQg-unsplash-p-500.jpeg 500w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b9571487754bf_stijn-te-strake-m45uW4f9YQg-unsplash-p-800.jpeg 800w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b9571487754bf_stijn-te-strake-m45uW4f9YQg-unsplash.jpg 963w"
             alt=""
             className="memories-image absolute-4"
           />
-          <img
-            src="https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b95711c7754cd_matheus-ferrero-KMUTlgruLrU-unsplash-(1).jpg"
+          <Image
+            src={image4}
             loading="lazy"
             sizes="(max-width: 991px) 100vw, 41vw"
-            srcSet="https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b95711c7754cd_matheus-ferrero-KMUTlgruLrU-unsplash-(1)-p-1080.jpeg 1080w, https://assets.website-files.com/642d591ca8b0b718dc589a9b/64300587bc3b95711c7754cd_matheus-ferrero-KMUTlgruLrU-unsplash-(1).jpg 1500w"
             alt=""
             className="memories-image absolute-3"
           />

@@ -3606,7 +3606,6 @@ figcaption {
 .parallax-image {
   z-index: -1;
   height: 90vh;
-  background-image: linear-gradient(rgba(141, 143, 141, .48), rgba(141, 143, 141, .48)), url("https://assets.website-files.com/642d591ca8b0b718dc589a9b/642fe854b8f88a4cabbb19f4_pexels-cottonbro-studio-6328303.jpg");
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
@@ -3789,7 +3788,6 @@ figcaption {
 .image-loveline-second {
   height: 100%;
   object-fit: cover;
-  object-position: 0% 50%;
 }
 
 .story-image-2 {

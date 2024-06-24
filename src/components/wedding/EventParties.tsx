@@ -1,4 +1,5 @@
 import rightLeaf from '@/../public/images/right-leaf.svg'
+import image from '@/../public/images/K1A16361.jpg'
 import Image from 'next/image'
 export default function EventParties() {
   const title = 'Event&Parties'
@@ -258,7 +259,13 @@ export default function EventParties() {
             </div>
             <Image src={rightLeaf} loading="lazy" alt="" className="absolute-image-2" />
           </div>
-          <div id="w-node-_3d65b90d-7cd7-4982-2356-ef65e3802992-13589a9f" className="container-image-background">
+          <div
+            id="w-node-_3d65b90d-7cd7-4982-2356-ef65e3802992-13589a9f"
+            className="container-image-background"
+            style={{
+              backgroundImage: image.src,
+            }}
+          >
             <div
               data-w-id="3d65b90d-7cd7-4982-2356-ef65e3802993"
               style={{
